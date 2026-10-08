@@ -2,5 +2,11 @@ What is the relationship between the amount of jobs/occupation that mention AI a
 (and) Can we predict the percentage of courses at Cornell (other places with API’s) that are about AI based on the number of job postings/ occupations that require AI as a skill? (corr)
 
 
-step 1 join onet and bls. with the soc codes.
+Onet has skills req , bls has descriptions. We combine ONET and BLS data, use that to compare to Cornell API to see amount of jobs and occupation that mention AI, corr increase AI mention in Cornell API (and DOE card?).
+
+Is this enough?
+Cornell api, usajobs, onet.
+Cornell API: course descriptions possibly course titles, possibly enrollment #
+USAJOBS: position title (job descriptions), dates, 
+Software Skills ONET: 
 
