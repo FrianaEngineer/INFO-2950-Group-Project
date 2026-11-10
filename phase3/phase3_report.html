@@ -7875,7 +7875,7 @@ The reason why we used course IDs instead of matching titles and descriptions is
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># load the 2 cleaned datasets and turn the saved job skills into lists.</span>
@@ -7925,10 +7925,10 @@ Cornell courses: 398
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Find the 20 most common skills and see how often each job role lists them.</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 20 most common skills and see how often each job role lists them.</span>
 <span class="n">postings_per_role</span> <span class="o">=</span> <span class="n">jobs</span><span class="p">[</span><span class="s2">"job_title_short"</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
 <span class="n">job_skills</span> <span class="o">=</span> <span class="n">jobs</span><span class="o">.</span><span class="n">explode</span><span class="p">(</span><span class="s2">"job_skills"</span><span class="p">,</span> <span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="c1"># Select the 20 most common skills across all three roles.</span>
@@ -7953,7 +7953,7 @@ Cornell courses: 398
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8117,7 +8117,7 @@ Cornell courses: 398
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Count how many cornell course descriptions mention each of the 20 skills.</span>
@@ -8158,7 +8158,7 @@ Cornell courses: 398
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8378,7 +8378,7 @@ Cornell courses: 398
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Read the words around each R match to check that it means the language</span>
@@ -8447,7 +8447,7 @@ Cornell courses: 398
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Show the words around Excel and Spark so we can check what they mean.</span>
@@ -8498,7 +8498,7 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># mark each posting with a 1 if it lists Docker and a 0 if it doesnt.</span>
@@ -8517,7 +8517,7 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8585,7 +8585,7 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Find the % of postings in each job role that list Docker.</span>
@@ -8610,7 +8610,7 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8672,7 +8672,7 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Compare the odds of listing Docker across job roles using logistic regression.</span>
@@ -8696,7 +8696,7 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <table class="simpletable">
 <caption>Logit Regression Results</caption>
@@ -8710,10 +8710,10 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 <th>Method:</th> <td>MLE</td> <th>  Df Model:          </th> <td>     2</td>
 </tr>
 <tr>
-<th>Date:</th> <td>Mon, 09 Nov 2026</td> <th>  Pseudo R-squ.:     </th> <td>0.08359</td>
+<th>Date:</th> <td>Tue, 10 Nov 2026</td> <th>  Pseudo R-squ.:     </th> <td>0.08359</td>
 </tr>
 <tr>
-<th>Time:</th> <td>16:12:08</td> <th>  Log-Likelihood:    </th> <td> -21571.</td>
+<th>Time:</th> <td>13:55:26</td> <th>  Log-Likelihood:    </th> <td> -21571.</td>
 </tr>
 <tr>
 <th>converged:</th> <td>True</td> <th>  LL-Null:           </th> <td> -23539.</td>
@@ -8759,10 +8759,10 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Put the job posting and Cornell course percentages side by side for each skill.</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># job posting and Cornell course % side by side by skill.</span>
 <span class="n">skill_comparison</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
     <span class="s2">"job_postings_pct"</span><span class="p">:</span> <span class="mi">100</span> <span class="o">*</span> <span class="n">skill_counts</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">jobs</span><span class="p">),</span>
     <span class="s2">"cornell_courses_pct"</span><span class="p">:</span> <span class="mi">100</span> <span class="o">*</span> <span class="n">comparison</span><span class="p">[</span><span class="s2">"Cornell course count"</span><span class="p">]</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">courses</span><span class="p">)})</span>
@@ -8778,7 +8778,7 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8845,15 +8845,15 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Use spearman correlation to see how closely the two skill rankings agree.</span>
-<span class="n">job_percentages</span> <span class="o">=</span> <span class="n">skill_comparison</span><span class="p">[</span><span class="s2">"job_postings_pct"</span><span class="p">]</span>
-<span class="n">cornell_percentages</span> <span class="o">=</span> <span class="n">skill_comparison</span><span class="p">[</span><span class="s2">"cornell_courses_pct"</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Use spearman corr to see how closely the two skill rankings agree.</span>
+<span class="n">job_p</span> <span class="o">=</span> <span class="n">skill_comparison</span><span class="p">[</span><span class="s2">"job_postings_pct"</span><span class="p">]</span>
+<span class="n">cornell_p</span> <span class="o">=</span> <span class="n">skill_comparison</span><span class="p">[</span><span class="s2">"cornell_courses_pct"</span><span class="p">]</span>
 
-<span class="n">observed_correlation</span> <span class="o">=</span> <span class="n">job_percentages</span><span class="o">.</span><span class="n">corr</span><span class="p">(</span>
-    <span class="n">cornell_percentages</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s2">"spearman"</span>
+<span class="n">observed_correlation</span> <span class="o">=</span> <span class="n">job_p</span><span class="o">.</span><span class="n">corr</span><span class="p">(</span>
+    <span class="n">cornell_p</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s2">"spearman"</span>
 <span class="p">)</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Spearman correlation: </span><span class="si">{</span><span class="n">observed_correlation</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
@@ -8880,10 +8880,10 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># shuffle the Cornell percentages to see how often we get a correlation this high.</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># shuffle Cornell % to understand our corr</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">scipy.stats</span><span class="w"> </span><span class="kn">import</span> <span class="n">spearmanr</span>
 
@@ -8892,9 +8892,9 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 <span class="n">at_least_as_high</span> <span class="o">=</span> <span class="mi">0</span>
 
 <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_shuffles</span><span class="p">):</span>
-    <span class="c1"># Keep the job percentages in place and rearrange the Cornell percentages.</span>
-    <span class="n">shuffled_cornell</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">permutation</span><span class="p">(</span><span class="n">cornell_percentages</span><span class="p">)</span>
-    <span class="n">shuffled_correlation</span> <span class="o">=</span> <span class="n">spearmanr</span><span class="p">(</span><span class="n">job_percentages</span><span class="p">,</span> <span class="n">shuffled_cornell</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="c1"># Keep job %, shuffle the Cornell %.</span>
+    <span class="n">shuffled_cornell</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">permutation</span><span class="p">(</span><span class="n">cornell_p</span><span class="p">)</span>
+    <span class="n">shuffled_correlation</span> <span class="o">=</span> <span class="n">spearmanr</span><span class="p">(</span><span class="n">job_p</span><span class="p">,</span> <span class="n">shuffled_cornell</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
 
     <span class="k">if</span> <span class="n">shuffled_correlation</span> <span class="o">&gt;=</span> <span class="n">observed_correlation</span> <span class="o">-</span> <span class="mf">1e-12</span><span class="p">:</span>
         <span class="n">at_least_as_high</span> <span class="o">+=</span> <span class="mi">1</span>
@@ -8902,7 +8902,7 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 <span class="c1"># Include the observed result in the count.</span>
 <span class="n">p_value</span> <span class="o">=</span> <span class="p">(</span><span class="n">at_least_as_high</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">num_shuffles</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Shuffles at least as high as the observed correlation: </span><span class="si">{</span><span class="n">at_least_as_high</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"at least as high as the obs corr: </span><span class="si">{</span><span class="n">at_least_as_high</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"One-sided p-value: </span><span class="si">{</span><span class="n">p_value</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -8916,7 +8916,7 @@ spark 367928 NumPy/Scipy, scikit-learn), parallel computing (Map-Reduce, Spark, 
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Shuffles at least as high as the observed correlation: 227
+<pre>at least as high as the obs corr: 227
 One-sided p-value: 0.0228
 </pre>
 </div>
@@ -8951,7 +8951,7 @@ One-sided p-value: 0.0228
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Extra checks on Hypothesis 2 (not preregistered)</span>
@@ -8965,13 +8965,13 @@ One-sided p-value: 0.0228
         <span class="n">two</span> <span class="o">+=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">r</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">rho</span><span class="p">)</span> <span class="o">-</span> <span class="mf">1e-12</span>
     <span class="k">return</span> <span class="p">(</span><span class="n">one</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="n">two</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
 
-<span class="n">p_one</span><span class="p">,</span> <span class="n">p_two</span> <span class="o">=</span> <span class="n">perm_p</span><span class="p">(</span><span class="n">job_percentages</span><span class="p">,</span> <span class="n">cornell_percentages</span><span class="p">,</span> <span class="n">observed_correlation</span><span class="p">)</span>
+<span class="n">p_one</span><span class="p">,</span> <span class="n">p_two</span> <span class="o">=</span> <span class="n">perm_p</span><span class="p">(</span><span class="n">job_p</span><span class="p">,</span> <span class="n">cornell_p</span><span class="p">,</span> <span class="n">observed_correlation</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"All 20 skills: rho = </span><span class="si">{</span><span class="n">observed_correlation</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, "</span>
       <span class="sa">f</span><span class="s2">"one-sided p = </span><span class="si">{</span><span class="n">p_one</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">, two-sided p = </span><span class="si">{</span><span class="n">p_two</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 
 <span class="k">for</span> <span class="n">drop</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">"python"</span><span class="p">,</span> <span class="s2">"r"</span><span class="p">]:</span>
-    <span class="n">keep</span> <span class="o">=</span> <span class="n">job_percentages</span><span class="o">.</span><span class="n">index</span> <span class="o">!=</span> <span class="n">drop</span>
-    <span class="n">j</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="n">job_percentages</span><span class="p">[</span><span class="n">keep</span><span class="p">],</span> <span class="n">cornell_percentages</span><span class="p">[</span><span class="n">keep</span><span class="p">]</span>
+    <span class="n">keep</span> <span class="o">=</span> <span class="n">job_p</span><span class="o">.</span><span class="n">index</span> <span class="o">!=</span> <span class="n">drop</span>
+    <span class="n">j</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="n">job_p</span><span class="p">[</span><span class="n">keep</span><span class="p">],</span> <span class="n">cornell_p</span><span class="p">[</span><span class="n">keep</span><span class="p">]</span>
     <span class="n">rho</span> <span class="o">=</span> <span class="n">j</span><span class="o">.</span><span class="n">corr</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s2">"spearman"</span><span class="p">)</span>
     <span class="n">p_one</span><span class="p">,</span> <span class="n">p_two</span> <span class="o">=</span> <span class="n">perm_p</span><span class="p">(</span><span class="n">j</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">rho</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Without </span><span class="si">{</span><span class="n">drop</span><span class="si">}</span><span class="s2">: rho = </span><span class="si">{</span><span class="n">rho</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, "</span>
